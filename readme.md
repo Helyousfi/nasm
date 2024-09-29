@@ -1,4 +1,8 @@
+
 # 86 Architecture
+## BIOS
+- BIOS is firmware embedded on a motherboard that initializes hardware components and prepares the system for booting an operating system.
+- A bootloader is a small program that loads the operating system into memory when the computer starts up.
 ![32architecture](https://github.com/user-attachments/assets/a6da0e28-ee22-4ddf-9c94-540c463a7580)
 # Registers
 ![image](https://github.com/user-attachments/assets/8066da44-ef01-4a39-9a0c-19a2f9271db3)
