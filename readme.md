@@ -2,6 +2,13 @@
 ![32architecture](https://github.com/user-attachments/assets/a6da0e28-ee22-4ddf-9c94-540c463a7580)
 # Registers
 ![image](https://github.com/user-attachments/assets/8066da44-ef01-4a39-9a0c-19a2f9271db3)
+## EIP
+EIP (Extended Instruction Pointer) is a 32-bit register in the x86 architecture.
+It holds the memory address of the next instruction that the CPU will execute.
+## FSM
+The FSM (Flag Status Register) in x86 architecture is a special register that contains flags indicating the status of the CPU after an arithmetic or logical operation.
+## The main internal bus
+The main internal bus in a computer system refers to the set of pathways (wires) used to transfer data, addresses, and control signals between the CPU, memory, and other peripherals. 
 # Special Purpose Registers
 ![2](https://github.com/user-attachments/assets/c5ea8319-c35d-477b-a23a-527d989f0db6)
 
@@ -14,3 +21,5 @@ ld -m elf_i386 -s -o hello hello.o
 ![system calls-Programming Ethical Hacker Way by sandeep saini](https://github.com/user-attachments/assets/9d81ec4a-45ed-454b-80e6-75b088a8bb3b)
 # Standard File Descriptors:
 ![image](https://github.com/user-attachments/assets/be5adc43-5250-4560-ad72-09d503d989b2)
+
+
