@@ -12,3 +12,5 @@ ld -m elf_i386 -s -o hello hello.o
 
 # Syscalls
 ![system calls-Programming Ethical Hacker Way by sandeep saini](https://github.com/user-attachments/assets/9d81ec4a-45ed-454b-80e6-75b088a8bb3b)
+# Standard File Descriptors:
+![image](https://github.com/user-attachments/assets/be5adc43-5250-4560-ad72-09d503d989b2)
