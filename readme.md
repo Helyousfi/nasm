@@ -5,4 +5,8 @@
 # Special Purpose Registers
 ![2](https://github.com/user-attachments/assets/c5ea8319-c35d-477b-a23a-527d989f0db6)
 
+# Assemble the program
+nasm -f elf32 hello.asm -o hello.o
+# Link the object files
+ld -m elf_i386 -s -o hello hello.o
 
