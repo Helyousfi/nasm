@@ -21,15 +21,12 @@ nasm -f elf32 hello.asm -o hello.o
 # Link the object files
 ld -m elf_i386 -s -o hello hello.o
 
-1. nasm -f elf32 hello.asm -o hello.o
-
-    nasm: This is the Netwide Assembler, a popular assembler for x86 assembly language.
-    -f elf32: Specifies the output format. elf32 indicates a 32-bit ELF (Executable and Linkable Format) object file. Since hello.asm is likely a 32-bit assembly program, the elf32 format is appropriate.
-    hello.asm: The name of the source file (your assembly code file).
-    -o hello.o: Specifies the name of the output object file. hello.o will be generated as the compiled (assembled) object file.
-
+## 1. nasm -f elf32 hello.asm -o hello.o
+    - nasm: Assembler for x86 assembly language.
+    - -f elf32: Specifies the output format. elf32 indicates a 32-bit ELF (Executable and Linkable Format) object file. Since hello.asm is likely a 32-bit assembly program, the elf32 format is appropriate.
+    
 In short, this command assembles the hello.asm file into an object file hello.o using the 32-bit ELF format.
-2. ld -m elf_i386 -o hello hello.o
+## 2. ld -m elf_i386 -o hello hello.o
 
     ld: The linker command. It links the object files produced by the assembler into an executable file.
     -m elf_i386: Specifies the target format for the linker. elf_i386 tells ld to create a 32-bit ELF executable for the i386 architecture.
