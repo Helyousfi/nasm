@@ -26,7 +26,7 @@ the offset. The physical address referenced by a 32-bit selector:offset pair is
 computed by the formula : 16 ∗ selector + offset
 
 # 16-bit Protected Mode
-In the 80286’s 16-bit protected mode, selector values are interpreted
+- In the 80286’s 16-bit protected mode, selector values are interpreted
 completely differently than in real mode. In real mode, a selector value
 is a paragraph number of physical memory. In protected mode, a selector
 value is an index into a descriptor table. In both modes, programs are
@@ -35,7 +35,7 @@ in physical memory and the selector value denotes the paragraph number
 of the beginning of the segment. In protected mode, the segments are not
 at fixed positions in physical memory. In fact, they do not have to be in
 memory at all!
-Protected mode uses a technique called virtual memory . The basic idea
+- Protected mode uses a technique called virtual memory . The basic idea
 of a virtual memory system is to only keep the data and code in memory that
 programs are currently using. Other data and code are stored temporarily
 on disk until they are needed again. In 16-bit protected mode, segments are
