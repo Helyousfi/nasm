@@ -47,3 +47,10 @@ written differently for virtual memory to work.
 
 # Interrupts
 Interrupts are signals sent to the processor by hardware or software that temporarily pause the current process. They allow the operating system to respond quickly to events, like user inputs (pressing a key or clicking a mouse) or hardware requests (like reading from a disk). When an interrupt occurs, the CPU stops what it’s doing, saves its current state, and jumps to a special routine called an interrupt handler to deal with the event. After handling the interrupt, the CPU resumes its previous task. This mechanism helps the operating system manage multiple tasks efficiently.
+
+# Assembly language
+- An assembly language program is stored as text (just as a higher level
+language program). Each assembly instruction represents exactly one machine instruction. For example, the addition instruction described above
+would be represented in assembly language as: add eax, ebx
+
+
