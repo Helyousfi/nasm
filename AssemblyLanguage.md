@@ -44,3 +44,6 @@ to memory from disk, it is very likely that it will be put into a different area
 of memory that it was in before being moved to disk. All of this is done
 transparently by the operating system. The program does not have to be
 written differently for virtual memory to work.
+
+# Interrupts
+Interrupts are signals sent to the processor by hardware or software that temporarily pause the current process. They allow the operating system to respond quickly to events, like user inputs (pressing a key or clicking a mouse) or hardware requests (like reading from a disk). When an interrupt occurs, the CPU stops what it’s doing, saves its current state, and jumps to a special routine called an interrupt handler to deal with the event. After handling the interrupt, the CPU resumes its previous task. This mechanism helps the operating system manage multiple tasks efficiently.
