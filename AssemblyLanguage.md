@@ -17,7 +17,7 @@ a particular computer architecture. In general, every type of CPU has its
 own unique machine language.
 
 # Real Mode
-- In real mode, memory is limited to only one megabyte (220 So where did the infa- bytes). Valid address range from (in hex) 00000 to FFFFF. These addresses require a 20-
+- In real mode, memory is limited to only one megabyte. Valid address range from (in hex) 00000 to FFFFF. These addresses require a 20-
 bit number. Obviously, a 20-bit number will not fit into any of the 8086’s
 16-bit registers. Intel solved this problem, by using two 16-bit values to
 determine an address. The first 16-bit value is called the selector. Selector
