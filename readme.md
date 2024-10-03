@@ -38,4 +38,7 @@ In short, this command assembles the hello.asm file into an object file hello.o 
 # Standard File Descriptors:
 ![image](https://github.com/user-attachments/assets/be5adc43-5250-4560-ad72-09d503d989b2)
 
+# Resources 
+https://www.linuxjournal.com/article/4048
+
 
