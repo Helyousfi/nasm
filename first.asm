@@ -1,3 +1,18 @@
+; ------------------------------------------------------------------------------
+; Filename: hello.asm
+; Description: This program prints "Hello, World!" to the standard output (stdout)
+; using Linux system calls in x86 assembly language. It utilizes the `sys_write` 
+; and `sys_exit` system calls to display the message and then exit gracefully.
+; 
+; Assembly Language: NASM (Netwide Assembler)
+; OS: Linux
+; Architecture: x86 (32-bit)
+; 
+; Section Breakdown:
+; 1. `.data` - Contains the string "Hello, World!" to be printed.
+; 2. `.text` - Contains the main program logic starting at `_start`.
+; ------------------------------------------------------------------------------
+
 section .data
     hello_msg db 'Hello, World!', 0  ; Define a string ending with null byte
 
