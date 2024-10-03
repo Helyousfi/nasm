@@ -29,5 +29,5 @@ _start:
 
     ; sys_exit syscall: exit(0)
     mov eax, 1        ; syscall number for sys_exit (1)
-    xor ebx, ebx      ; return 0 (exit code)
+    xor ebx, ebx      ; return 0 (exit code) (2 byte instruction, mov is 5 byte, that's why xor is used in performance sensitive code)
     int 0x80          ; call the kernel
