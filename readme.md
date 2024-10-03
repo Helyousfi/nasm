@@ -40,5 +40,5 @@ In short, this command assembles the hello.asm file into an object file hello.o 
 
 # Resources 
 https://www.linuxjournal.com/article/4048
-
+https://www.youtube.com/watch?v=busHtSyx2-w&list=PLetF-YjXm-sCH6FrTz4AQhfH6INDQvQSn&index=3
 
